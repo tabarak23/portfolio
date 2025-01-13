@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tabarak's Personal Portfolio</title>
+  <title>vCard - Personal Portfolio</title>
 
   <!--
     - favicon
@@ -42,13 +42,13 @@
       <div class="sidebar-info">
 
         <figure class="avatar-box">
-          <img src="./assets/images/pic.jpeg" alt="Richard hanrick" width="80">
+          <img src="./assets/images/my-avatar.png" alt="Richard hanrick" width="80">
         </figure>
 
         <div class="info-content">
-          <h1 class="name" title="Richard hanrick">Khaja Tabarak Uddin</h1>
+          <h1 class="name" title="Richard hanrick">Richard hanrick</h1>
 
-          <p class="title">Devops/SRE engineer</p>
+          <p class="title">Web developer</p>
         </div>
 
         <button class="info_more-btn" data-sidebar-btn>
@@ -74,7 +74,7 @@
             <div class="contact-info">
               <p class="contact-title">Email</p>
 
-	      <a href="er.tabarak2000@gmail.com" class="contact-link">er.tabarak2000@gmail.com</a>
+              <a href="mailto:richard@example.com" class="contact-link">richard@example.com</a>
             </div>
 
           </li>
@@ -88,7 +88,7 @@
             <div class="contact-info">
               <p class="contact-title">Phone</p>
 
-              <a href="tel:+12133522795" class="contact-link">+91 8106749169</a>
+              <a href="tel:+12133522795" class="contact-link">+1 (213) 352-2795</a>
             </div>
 
           </li>
@@ -102,7 +102,7 @@
             <div class="contact-info">
               <p class="contact-title">Birthday</p>
 
-              <time datetime="1982-06-23">Dec 21, 2000</time>
+              <time datetime="1982-06-23">June 23, 1982</time>
             </div>
 
           </li>
@@ -116,7 +116,7 @@
             <div class="contact-info">
               <p class="contact-title">Location</p>
 
-              <address>Hyderabad, Telangana, India</address>
+              <address>Sacramento, California, USA</address>
             </div>
 
           </li>
@@ -125,24 +125,27 @@
 
         <div class="separator"></div>
 
-     	<ul class="social-list">
+        <ul class="social-list">
 
-         <li class="social-item">
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
 
-          <a href="https://www.linkedin.com/in/tabarak8106749169/" class="social-link">
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
 
-           <ion-icon name="logo-linkedin"></ion-icon>
-          </a>
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
 
- 	 </li>
-
-        <li class="social-item">
-
-         <a href="https://www.instagram.com/taufeeqtabarak/" class="social-link">
-          <ion-icon name="logo-instagram"></ion-icon>
-         </a>
-        </li>
-       </ul>
+        </ul>
 
       </div>
 
@@ -206,11 +209,17 @@
 
         <section class="about-text">
           <p>
-            As a DevOps Engineer with 1.5 years of experience, I have successfully delivered and maintained robust and scalable infrastructure for over 25 medium to large-scale real-time projects across more than 6 countries, serving over 15 clients in which I was a playing a cruical role. My expertise encompasses infrastructure provisioning and management using Terraform and Ansible, containerization with Docker and Kubernetes, and CI/CD pipeline automation with Jenkins and Github actions. I have a strong foundation in cloud-native deployments on AWS.
+            I'm Creative Director and UI/UX Designer from Sydney, Australia, working in web development and print media.
+            I enjoy
+            turning complex problems into simple, beautiful and intuitive designs.
           </p>
 
           <p>
-            I possess strong analytical and problem-solving skills, enabling me to effectively troubleshoot and optimize system performance. My excellent communication and collaboration abilities allow me to seamlessly partner with development and operations teams, streamlining software delivery processes and ensuring high system reliability and operational efficiency.
+            My job is to build your website so that it is functional and user-friendly but at the same time attractive.
+            Moreover, I
+            add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring
+            across your
+            message and identity in the most creative way. I created web design for many famous brand companies.
           </p>
         </section>
 
