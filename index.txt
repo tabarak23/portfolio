@@ -2,17 +2,17 @@ vCard - Personal Portfolio
 
 # sidebar
 
-alt = Richard hanrick
-Richard hanrick
-Web developer
+alt = Khaja Tabarak uddin
+Khaja Tabarak uddin
+Devops/SRE engineer
 
 Show Contacts
 
 Email
-richard@example.com
+er.tabarak2000@gmail.com
 
 Phone
-+1 (213) 352-2795
++91 8106749169
 
 Birthday
 June 23, 1982
@@ -64,7 +64,7 @@ Testimonials
 
 alt = Daniel lewis
 Daniel lewis
-Richard was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt consectetur adipiscing elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+Tabarak bhai ache hai naik hai.
 
 alt = Jessica miller
 Jessica miller
