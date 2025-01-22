@@ -512,7 +512,7 @@ main {
  * #service 
  */
 
-.service { margin-bottom: 35px; }
+/** .service { margin-bottom: 35px; }
 
 .service-title { margin-bottom: 20px; }
 
@@ -554,7 +554,65 @@ main {
   font-weight: var(--fw-3);
   line-height: 1.6;
 }
+*/  
 
+
+.service {
+  margin-bottom: 35px;
+}
+
+.service-title {
+  margin-bottom: 20px;
+}
+
+.service-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid */
+  gap: 20px;
+}
+
+.service-item {
+  position: relative;
+  background: var(--border-gradient-onyx);
+  padding: 20px;
+  border-radius: 14px;
+  box-shadow: var(--shadow-2);
+  z-index: 1;
+}
+
+.service-item::before {
+  content: "";
+  position: absolute;
+  inset: 1px;
+  background: var(--bg-gradient-jet);
+  border-radius: inherit;
+  z-index: -1;
+}
+
+.service-icon-box {
+  margin-bottom: 10px;
+  display: flex; /* Center the image horizontally */
+  justify-content: center; 
+}
+
+.service-icon-box img {
+  max-width: 50px; /* Adjust as needed */
+}
+
+.service-content-box {
+  text-align: center;
+}
+
+.service-item-title {
+  margin-bottom: 7px;
+}
+
+.service-item-text {
+  color: var(--light-gray);
+  font-size: var(--fs-6);
+  font-weight: var(--fw-3);
+  line-height: 1.6;
+}
 
 /**
  * #testimonials 
