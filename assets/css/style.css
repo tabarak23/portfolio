@@ -1134,8 +1134,8 @@ main {
 body {
     font-family: sans-serif;
     display: flex;
-    flex-direction: column; /* Added flex-direction: column; to ensure vertical stacking */
-    align-items: center; 
+    justify-content: center;
+    align-items: center;
     min-height: 100vh;
     margin: 0;
 }
@@ -1145,15 +1145,10 @@ body {
     gap: 20px; 
 }
 
-.hire-options {
-    margin-bottom: 2rem; /* Added margin for spacing between sections */
-}
-
 .box {
     border: 1px solid #ccc;
     padding: 20px;
     text-align: center;
-    width: 45%; /* Adjust width as needed */ 
 }
 
 .hire-button {
