@@ -437,10 +437,19 @@ main {
   padding-bottom: 4px;
   padding-left: 7px;
 }
+/**
+.social-item .social-link {
+  color: var(--light-gray-70);
+  font-size: 18px;
+}
+*/
 
 .social-item .social-link {
   color: var(--light-gray-70);
   font-size: 18px;
+  display: flex; /* Add flexbox for better alignment */
+  justify-content: center; /* Center the icon horizontally */
+  align-items: center; /* Center the icon vertically */
 }
 
 
