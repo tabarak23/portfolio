@@ -440,13 +440,13 @@ main {
 /**
 .social-item .social-link {
   color: var(--light-gray-70);
-  font-size: 18px;
+  font-size: 30px;
 }
 */
 
 .social-item .social-link {
   color: var(--light-gray-70);
-  font-size: 18px;
+  font-size: 30px;
   display: flex; /* Add flexbox for better alignment */
   justify-content: center; /* Center the icon horizontally */
   align-items: center; /* Center the icon vertically */
